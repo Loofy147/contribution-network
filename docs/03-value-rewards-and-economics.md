@@ -12,28 +12,23 @@
 
 These are related but not interchangeable. A contribution's estimated business value is not automatically the amount owed to its contributor. A high reward does not prove high value. A low or unknown value estimate does not erase an agreed payment.
 
-## 3.2 Value may be optional
+## 3.2 Value may be optional; purpose may not be unclear
 
-The network must permit value to be:
-- defined in advance;
+The project must be able to explain the expected role or intended effect of a contribution in plain language. That rationale may be qualitative. A formal monetary estimate or universal score is not required.
+
+Formal assessment may be:
+- defined before the contribution;
 - proposed by a contributor;
-- negotiated by the project owner and contributor;
-- estimated as a range;
+- negotiated by the parties;
+- expressed as a range;
 - assessed after evidence is available;
 - described qualitatively;
-- measured in non-monetary units where meaningful; or
-- not assessed.
+- measured in a relevant non-monetary unit; or
+- omitted when it would not affect a decision.
 
-Store the valuation status explicitly, for example:
-- NOT_ASSESSED
-- CONTRIBUTOR_PROPOSED
-- PROJECT_ESTIMATE
-- NEGOTIATED_ESTIMATE
-- MEASURED_OUTCOME
-- QUALITATIVE
-- NOT_APPLICABLE
+Keep this as a simple optional note in the pilot ledger: estimate or description, basis/assumptions where useful, author, and date. Do not introduce a complex valuation status machine until repeated projects show a decision it helps make.
 
-An estimate should include its method, assumptions, author and date where meaningful. Avoid false precision and universal scores that compare incomparable contributions (for example, a referral, a safety review and a dataset) as though they were the same thing.
+Avoid false precision and universal scores that compare incomparable contributions (for example, a referral, a safety review, a dataset, and cash) as though they were the same thing. A value estimate is not compensation, and the amount of agreed compensation is not proof of economic value.
 
 ## 3.3 Reward modes
 
@@ -62,24 +57,24 @@ Before work begins, the parties must know whether compensation exists and how it
 
 If a project says "we will decide later what your contribution was worth," it must not imply a payment promise. If payment is outcome-dependent, the outcome measure and calculation must be agreed in advance.
 
-## 3.4 Contribution record fields
+## 3.4 Minimum pilot record and conditional fields
 
-Recommended fields:
-- contribution_id, project_id, request_id;
-- contributor identity or organization, plus permitted attribution name;
-- category and description;
-- expected effect and related project objective;
-- artifact/evidence links and provenance;
-- dependencies and status;
-- acceptance criteria, reviewer and decision evidence;
-- valuation status, estimate/range, currency or unit, method, assumptions and assessor;
-- reward mode, amount/formula, payer, recipient, conditions and due date;
-- approved expenses and milestone references;
-- rights holder, license, attribution and reuse restrictions;
-- confidentiality/privacy/security classification;
-- dispute, revision and settlement history.
+Use one row or record per agreed contribution. Record only what is needed to coordinate the work, make a fair decision, honor the agreement, and learn from the pilot.
 
-Do not make public every value, payment, identity or evidence record. Define project-level visibility and confidentiality rules.
+**Minimum for a contribution with commitments:**
+- project and contribution identifier;
+- contributor or organization and permitted attribution name;
+- what is offered and its expected role/effect;
+- request/dependency link, if any;
+- evidence or artifact link and relevant provenance;
+- agreed scope, acceptance criteria, deadline, reviewer, and decision/reason;
+- reward/benefit terms, payer, recipient, conditions and due date, if applicable;
+- rights, license, attribution, reuse and confidentiality terms;
+- status, material changes, dispute and settlement history where relevant.
+
+**Conditional fields—only when they affect the project:** value estimate/range and method; currency or non-monetary unit; approved expenses; funding and milestone references; security/privacy classification; detailed review evidence; organization identifiers; and contract or compliance references.
+
+Do not make public every identity, payment, value, or evidence record. Set access and retention based on what the project needs and applicable obligations. Treat this as a pilot checklist, not a final database schema.
 
 ## 3.5 Reward allocation
 
