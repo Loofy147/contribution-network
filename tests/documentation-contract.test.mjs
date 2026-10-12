@@ -152,6 +152,7 @@ test('documentation CI is least-privilege and pins every action immutably', asyn
 test('secret scanning installs a pinned CLI without account lookup or report uploads', async () => {
   const workflow = await readFile(path.join(root, '.github/workflows/secrets-scan.yml'), 'utf8');
 
+  assert.doesNotMatch(workflow, /\\\\\$\\{\\{/);
   assert.match(workflow, /^permissions:\n  contents: read$/m);
   assert.match(workflow, /fetch-depth: 0/);
   assert.match(workflow, /go-version: "1\.25\.4"/);
