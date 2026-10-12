@@ -104,6 +104,25 @@ Capability development should be integrated into project work where it improves 
 
 The intent is not to guarantee a career outcome or turn every task into a formal training course. It is to make real contribution a setting where useful work, feedback, and increasing responsibility can reinforce each other.
 
+### Progression through increasing responsibility
+
+Design the work system so people can take on greater responsibility as their evidence and preferences develop. An illustrative progression is:
+
+1. **First useful contribution:** a bounded task with clear guidance, an acceptance test, and a fast first review.
+2. **Independent contributor:** owns a defined deliverable, handles feedback, communicates blockers, and documents limitations.
+3. **Integrator or reviewer:** coordinates dependencies, checks quality, or reviews work from others.
+4. **Maintainer, mentor, or project steward:** owns a larger outcome, supports others, manages risk, or coordinates several contribution types.
+
+This is not a mandatory ladder, job title, or universal level system. People may enter at any stage, stay in a preferred role, move sideways across domains, or demonstrate readiness using other evidence. Compensation is based on the agreement for the work, not an assumed status. Use these stages to help scope suitable responsibilities and identify support—not to create a public ranking.
+
+### Design dual-purpose work carefully
+
+Where appropriate, a work package can include both:
+- a **delivery objective** the project or customer needs; and
+- an **opt-in learning objective** the contributor wants to practice.
+
+The delivery objective and acceptance criteria remain primary. A learning objective must not be used to lower quality requirements, justify unpaid commercial output, or impose unwanted training. If mentoring or extra review is needed, name the reviewer and account for that effort. A well-designed task can then produce a useful deliverable, a fair learning opportunity, evidence of actual work, and an improved future match—without pretending these benefits are automatic.
+
 ## 5. Use evidence for matching, not a universal score
 
 A contributor's record should answer: **what did this person actually do, under what conditions, what evidence shows the result, and how much responsibility did they hold?**
