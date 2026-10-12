@@ -146,3 +146,27 @@ test('documentation CI is least-privilege and pins every action immutably', asyn
     );
   }
 });
+
+
+test('secret scanning uses pinned actions and cannot comment or publish secret-bearing artifacts', async () => {
+  const workflow = await readFile(path.join(root, '.github/workflows/secrets-scan.yml'), 'utf8');
+
+  assert.match(workflow, /^permissions:\n  contents: read$/m);
+  assert.match(workflow, /^      pull-requests: read$/m);
+  assert.match(workflow, /GITLEAKS_ENABLE_COMMENTS: "false"/);
+  assert.match(workflow, /GITLEAKS_ENABLE_UPLOAD_ARTIFACT: "false"/);
+  assert.match(workflow, /fetch-depth: 0/);
+  assert.doesNotMatch(workflow, /pull_request_target/);
+  assert.doesNotMatch(workflow, /pull-requests:\s*write/);
+
+  const actionRefs = [...workflow.matchAll(/^\s*uses:\s*([^\s]+)/gm)]
+    .map((match) => match[1]);
+  assert.ok(actionRefs.length >= 2, 'expected checkout and Gitleaks actions');
+  for (const reference of actionRefs) {
+    assert.match(
+      reference,
+      /@[a-f0-9]{40}$/i,
+      `workflow action must be pinned to a full commit SHA: ${reference}`,
+    );
+  }
+});
