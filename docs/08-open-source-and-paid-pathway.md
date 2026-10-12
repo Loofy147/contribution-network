@@ -7,12 +7,9 @@
 
 **Yes: an open-source project can be a strong way to develop the Contribution Network and help contributors build the skills and evidence needed for paid work. But open source is an operating and learning model, not a complete business model.**
 
-The model should connect two distinct tracks:
+The stronger design is one shared project and work-package system with distinct funding and rights modes: voluntary public contribution, funded public contribution, customer-funded public deliverables, and customer-funded confidential work. The modes should connect through common scoping, acceptance, review, evidence, and dependency practices where appropriate—but never blur compensation, ownership, publication, confidentiality, or obligations.
 
-1. **Open-source commons:** people work on a useful, publicly available project, learn through real tasks and review, create reusable artifacts, and demonstrate how they collaborate.
-2. **Paid projects:** customers fund defined outcomes. Contributors are selected for relevant evidence and fit, and compensation, scope, acceptance, deadlines, rights, and settlement are agreed before work begins.
-
-A contributor may progress from one track to the other, but there is no automatic entitlement or promise of paid work. The open-source project must be worthwhile even for participants who never receive a paid assignment.
+This creates a reciprocal loop, not a one-way volunteer-to-job funnel. Real customer demand can fund paid contributions, review, mentoring, and reusable public work when the customer agrees. Accepted contribution evidence can improve future matching. Public assets and lessons can make later work more effective where rights permit. No contributor is promised future paid work, and the public project must remain worthwhile even for participants who never receive a paid assignment. See the [integrated model](09-integrated-contribution-to-capability-work.md).
 
 This pathway is plausible because open-source contributions can create visible work samples and practice in collaboration, documentation, code review, testing, design, project coordination, and other real project roles. GitHub's contributor guidance explicitly covers non-code contributions and recommends checking with maintainers before investing in substantial work ([GitHub Docs](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github); [Open Source Guides](https://opensource.guide/how-to-contribute/)). However, public activity is a signal, not a complete assessment of someone's skill, and it does not guarantee a job or paid assignment.
 
@@ -45,33 +42,25 @@ This is a plausible capability-building path, not a guarantee that every contrib
 
 This benefit must be measured. A contribution history is not automatically a verified credential, and past open-source work should be one piece of evidence—not the sole selection criterion.
 
-## 2. A fair two-track operating model
+## 2. One shared contribution system, distinct funding modes
 
-### Track A — Open-source work
+### Mode A — Public, voluntary contribution
 
-Open-source tasks should produce a genuine public benefit or a useful reusable project asset. They may include research, problem framing, software, design, documentation, testing, accessibility, data stewardship, user research, community support, maintenance, and governance work.
+The work must serve a genuine public purpose, have clear scope and acceptance, and be bounded and optional. State plainly that no payment or future assignment is promised. It must not be a disguised audition for a specific customer deliverable.
 
-Each task should explain:
-- why it matters to the project;
-- a manageable scope and an expected output;
-- how the result will be reviewed;
-- what evidence or artifact will remain;
-- the applicable license, attribution, privacy and safety rules;
-- whether the work is voluntary or funded.
+### Mode B — Funded public contribution
 
-Contributors should not need to take on unpaid work to prove that they are serious. Beginner tasks should be useful in their own right—not artificial exercises that primarily create a labor pipeline.
+A sponsor, grant, community fund, or customer pays for work that will be made available under a stated license. The budget may cover production, review, mentoring, integration, documentation, or maintenance. Funding, eligibility, payment terms, and rights are agreed before commitment.
 
-### Track B — Paid work
+### Mode C — Customer-funded work with a public deliverable
 
-When a customer funds work, publish a separate paid opportunity or statement of work. It must define:
-- budget, payer, recipient, and payment timing;
-- scope, deliverable and acceptance conditions;
-- decision owner, reviewer, and revision limits;
-- deadline, dependencies, and change-control rules;
-- rights, licensing, attribution, confidentiality and permitted reuse;
-- cancellation, rejection, dispute and settlement terms.
+A customer pays for a defined improvement that will be released under a pre-agreed license. Separate customer-specific work from reusable public scope, price and accept both parts, and confirm the customer understands release and reuse. Public release must not expose confidential information or unapproved third-party material.
 
-Do not tell people to complete unpaid work now in exchange for a possibility of being paid later. Do not route commercially necessary customer delivery into the voluntary track merely because an open-source community exists. If a customer-funded deliverable is intended to be open source, explain the funding, contribution terms and license before work begins.
+### Mode D — Customer-funded confidential or proprietary work
+
+The work proceeds under an explicit paid agreement with scope, acceptance, compensation, rights, confidentiality, and settlement terms. Only authorized, non-confidential evidence may be published in a contributor's portfolio.
+
+Any one project may combine these modes. Do not label every task with one project-wide funding or licensing assumption. Do not tell people to volunteer now in exchange for possible future work or route commercially necessary delivery into the voluntary mode.
 
 ## 3. Evidence of contribution—not a universal score
 
@@ -110,7 +99,7 @@ Career signaling is one real reason people participate in open source, but it ca
 
 ## 5. How to know whether the pathway works
 
-Measure the open-source pathway and the paid business separately.
+Measure public usefulness, contributor development, paid delivery, and commercial sustainability as distinct outcomes, but also measure whether the mechanisms reinforce each other—for example, whether a customer-funded public component is reused or whether contribution evidence improves a paid-work selection.
 
 ### Open-source health and learning
 
@@ -179,9 +168,9 @@ Invite a small, varied contributor group to work on a real, bounded outcome. Obs
 
 Let participants choose whether to link accepted work to a public profile or portfolio. Describe the work and evidence; avoid a universal skill score or compulsory career profile.
 
-### Step 5 — Test a separate paid pathway
+### Step 5 — Test an explicit funding bridge
 
-Only once a genuine customer-funded project exists, publish paid scope and terms, and select contributors based on relevant evidence, availability, and fit. Do not promise that open-source participation leads to selection.
+Find a real customer or sponsor need that overlaps with the public roadmap. Separate reusable public scope from customer-specific or confidential scope. Fund paid contributions, review, mentoring, and integration where needed; define the license and publication terms in advance. Where the customer wants proprietary work, keep it separate and protect it. Select contributors for paid assignments based on relevant evidence, availability, and fit; do not promise selection because of prior voluntary activity.
 
 ### Step 6 — Decide from evidence
 
@@ -189,6 +178,6 @@ Continue if the open-source track creates a useful public asset, contributors ex
 
 ## Final recommendation
 
-**Use open source as a community, product-development, and capability-building path; use paid projects as a separate, explicit economic path. Connect them through inspectable contribution evidence, fair selection, and clear agreements—not through a promise of future employment.**
+**Use one shared contribution system with explicit funding and rights modes.** The strongest bridge is to fund useful work that can simultaneously meet a real need, develop capability through supported practice, create accepted evidence of contribution, and—when agreed—improve a reusable public asset. Keep commitments and economics explicit; never make unpaid work a condition for possible future pay.
 
 This is a promising hypothesis to test. The next milestone is a licensed, useful public project with manageable beginner-friendly contributions and credible review—not a complex ranking system or a promise that volunteers will later be paid.
