@@ -20,6 +20,7 @@ Projects such as Proofline may later use the network. They are examples of proje
 5. [Research and competitive benchmarks](docs/05-research-and-benchmarks.md) — academic and official sources, comparable models, and what remains unproven.
 6. [Elimination-first design method](docs/06-elimination-first-design-method.md) — challenge requirements, delete unnecessary parts, simplify, accelerate cycle time, then automate.
 7. [Critical design review](docs/07-critical-design-review.md) — structured criticism, revised launch thesis, pilot metrics, gates, and stop conditions.
+8. [Open-source and paid-work pathway](docs/08-open-source-and-paid-pathway.md) — using genuine open-source work to support learning and evidence, with paid opportunities governed separately.
 
 ## Working principles
 
@@ -35,6 +36,8 @@ Projects such as Proofline may later use the network. They are examples of proje
 - **Validate before automating:** operate the first projects manually and build only after repeated needs are observed.
 - **Narrow launch, broad architecture:** support a broad contribution model conceptually, but market and validate one specific buyer problem first.
 - **No premature tokenization:** the model does not require a token, speculative asset, or on-chain mechanism.
+- **Open source with a fair bridge:** public contributions can build skills and work evidence, but do not promise future paid work or replace compensation for funded customer delivery.
+- **Separate community health from commercial validation:** a useful open-source project and a viable paid service are two different outcomes that must be measured separately.
 
 ## Initial business-model hypothesis
 
@@ -64,7 +67,7 @@ Do not present these hypotheses as proven market facts.
 
 The long-term ambition is a cross-niche contribution network. The launch hypothesis is narrower: a human-led coordination service for one repeatable buyer problem that requires several materially different contributions. Do not build a broad marketplace until paid pilots establish demand, integration value, and credible economics.
 
-The immediate objective is to choose one buyer/problem pair, secure an externally paid manual pilot, document the agreed outcome and terms, measure the full cost of coordination and integration, and test whether the workflow repeats. See the [critical design review](docs/07-critical-design-review.md) for decision gates.
+The immediate objective has two connected but separate tracks: (1) design a genuinely useful open-source project that helps contributors learn and creates inspectable work evidence; and (2) test customer demand and service economics through externally paid manual pilots. Open-source activity can validate onboarding and collaboration, but does not prove willingness to pay. See the [critical design review](docs/07-critical-design-review.md) and [open-source pathway](docs/08-open-source-and-paid-pathway.md) for the safeguards and decision gates.
 
 ## License and usage
 
