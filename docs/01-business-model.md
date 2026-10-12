@@ -73,7 +73,7 @@ Neither “all niches” nor “whole-project delivery” alone proves different
 
 ## 1.5 Operating modes
 
-Support these as configurable project modes; do not try to fully deliver all modes at launch.
+These are different business models, not merely UI settings. Keep all three as strategic options, but launch with only one. The current launch hypothesis is Mode B, delivered manually; the first pilots must clarify whether customers pay for coordination and whether the network can deliver it economically.
 
 ### Mode A — Self-service project
 The project owner defines the project, accepts contributions, integrates work and is accountable for the outcome. The network supplies workflow, discovery, records and tools.
@@ -136,11 +136,17 @@ These are candidate revenue models, not validated revenue sources. Do not count 
 
 ## 1.8 Initial recommendation
 
-Build the business foundation around a project-based coordination network that can support multiple contribution types and funding models. Begin operations in a **coordinated project mode** for a narrow class of real outcomes; provide manual stewardship rather than attempting to automate every process.
+Start as a **human-led, buyer-funded coordination service** for one narrow, repeatable outcome that requires multiple materially different contributions. A named project steward helps define the work, source contributions, coordinate dependencies, manage review, and record the accepted result.
 
-Keep the underlying data model cross-niche. Narrow the initial customer problem so that a pilot can produce measurable evidence.
+The customer and agreement must state who is accountable for integration and final acceptance. Do not imply that the network guarantees the final result unless the service is explicitly priced and contracted to assume that risk.
 
-Do not choose a token model, universal value score, fixed commission rate, complex royalty system or cooperative governance structure until research and pilots give a reason to do so.
+The first offer is not a public all-purpose marketplace, not a self-service SaaS product, and not a guarantee of managed delivery. It is a paid manual service using a broad contribution framework internally. Keep the underlying model extensible; keep the launch promise narrow.
+
+Choose the first use case based on recent buyer pain, an identifiable budget and decision-maker, observable acceptance criteria, a real need to combine contribution types, a manual supply path, manageable legal/data risk, and a credible path to repeat demand. Do not select a niche solely because it is familiar or exciting.
+
+Before custom software, use a manual pilot and measure the full cost of coordination, review, integration, rework, acquisition, and settlement. A provisional default is three paid pilots in the same use case across at least two customers before committing to a broader build; document any exception and the evidence supporting it.
+
+Keep all other modes and revenue streams as hypotheses. Do not choose a token model, universal value score, fixed commission rate, complex royalty system or cooperative governance structure until research and pilots give a specific reason to do so.
 
 ## 1.9 Core assumptions to falsify
 
