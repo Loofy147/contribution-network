@@ -25,6 +25,7 @@ The Contribution Network itself is Project 0 and the first real project: its fou
 10. [First-consumer project charter](docs/10-first-consumer-project-charter.md) — the Network itself as the first real project, founder contribution XP, dogfooding, verification levels, and initial engineering priorities.
 11. [Engineering primitives and integration architecture](docs/11-engineering-primitives.md) — GitHub App permissions, MCP authorization/tool boundaries, database organization, secrets, audit/idempotency, and rollout gates.
 12. [Credential, bearer-token, key and API management](docs/12-credential-and-api-management.md) — provider credentials, API key issuance, bearer-token validation, secret storage, scopes, rotation/revocation, versioned API contracts, and acceptance gates.
+13. [CI/CD pipeline and quality-gate specification](docs/13-ci-cd-and-quality-gates.md) — documentation CI, prototype build blockers, security/dependency automation, release gates, and the conditions required before enabling CD.
 
 ## Working principles
 
