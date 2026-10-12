@@ -123,7 +123,7 @@ A claim that no direct competitor exists requires documented market mapping. Do 
 
 ## 4.9 Manual pilot
 
-Run one real, tightly scoped project before building a platform. The pilot tests the buyer's problem, the value of coordination, the fairness of the process, and the full cost of delivery.
+The Network itself is the first-consumer/dogfooding project and should be used to test internal usefulness, workflow quality, and engineering reliability. A separate manual commercial pilot is required to test buyer demand, the value of coordination, fairness, and full delivery cost before claiming external market validation or scaling a commercial service. Dogfooding is real project work, but it is not evidence that an external buyer will pay.
 
 1. Select one buyer/problem pair based on recent real behavior, an identified budget owner, a measurable outcome, and a practical way to source contributors.
 2. Secure an externally paying customer and name the person who can accept the outcome. A founder-funded or volunteer demonstration can teach workflow but does not validate willingness to pay.
