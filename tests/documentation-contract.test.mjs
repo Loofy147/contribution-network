@@ -120,3 +120,29 @@ test('current working boundary and deployment claims remain explicit', async () 
   assert.match(ciSpec, /no GitHub Actions workflow should claim to deploy the application/i);
   assert.match(ciSpec, /reproducible build/i);
 });
+
+
+test('documentation CI is least-privilege and pins every action immutably', async () => {
+  const workflow = await readFile(path.join(root, '.github/workflows/docs-quality.yml'), 'utf8');
+
+  assert.match(workflow, /^permissions:\n  contents: read$/m);
+  assert.match(workflow, /^concurrency:/m);
+  assert.match(workflow, /cancel-in-progress: true/);
+  assert.match(workflow, /timeout-minutes: 10/);
+  assert.match(workflow, /persist-credentials: false/);
+  assert.match(workflow, /^  pull_request:/m);
+  assert.match(workflow, /^  workflow_dispatch:/m);
+  assert.doesNotMatch(workflow, /pull_request_target/);
+  assert.doesNotMatch(workflow, /secrets\./);
+
+  const actionRefs = [...workflow.matchAll(/^\s*uses:\s*([^\s]+)/gm)]
+    .map((match) => match[1]);
+  assert.ok(actionRefs.length >= 2, 'expected checkout and Node setup actions');
+  for (const reference of actionRefs) {
+    assert.match(
+      reference,
+      /@[a-f0-9]{40}$/i,
+      `workflow action must be pinned to a full commit SHA: ${reference}`,
+    );
+  }
+});
