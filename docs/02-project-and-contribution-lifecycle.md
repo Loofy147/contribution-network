@@ -80,27 +80,55 @@ Record agreed payments, non-cash benefits, approved expenses, credits, licenses,
 ### Stage 10 — Close and learn
 Publish a closing summary consistent with confidentiality and rights: what outcome was delivered, what evidence exists, what remains limited, how funds were used, and what each participant may claim or reuse. Ask for feedback, record actual costs and identify follow-on maintenance needs.
 
-## 2.3 Status model
+## 2.3 Keep lifecycle dimensions separate
 
-A minimal set:
-- DRAFT
-- OPEN_FOR_CONTRIBUTIONS
-- FUNDED / PARTIALLY_FUNDED / UNFUNDED (separate funding status)
-- OFFERED
-- AGREED
-- IN_PROGRESS
-- SUBMITTED
-- REVISION_REQUESTED
-- ACCEPTED
-- REJECTED
-- DISPUTED
-- BLOCKED
-- SETTLEMENT_PENDING
-- SETTLED
-- CLOSED
-- CANCELLED
+Do not use one universal status list for projects, contribution requests, individual contributions, funding, and settlement. These are different questions and should not be combined into one enum.
 
-Funding status and work status are separate state dimensions. A project can be open but not funded; an accepted contribution can still be awaiting settlement.
+For the manual pilot, use the smallest status sets that affect decisions:
+
+**Project:** DRAFT → QUALIFYING → OPEN → ACTIVE → ACCEPTANCE → CLOSED; CANCELLED may occur where appropriate.
+
+**Contribution request:** DRAFT → OPEN → PAUSED / FILLED / CANCELLED.
+
+**Contribution:** OFFERED → AGREED → IN_PROGRESS → SUBMITTED → ACCEPTED / REVISION_REQUESTED / REJECTED / DISPUTED / WITHDRAWN. Use BLOCKED only when someone needs to act to unblock the contribution.
+
+**Funding:** record whether funds are UNFUNDED, PARTIALLY_FUNDED, or FUNDED separately from project status. Record the actual amount committed, received, and available where relevant.
+
+**Settlement:** NOT_DUE / DUE / PAID / DISPUTED_OR_HELD / REFUNDED_OR_CANCELLED, only when a monetary settlement applies. Non-monetary benefits may need a fulfilment note rather than a payment status.
+
+Implement only the states the pilot actually needs. An accepted contribution can still be awaiting settlement; a project can be open while unfunded only if that fact is unmistakable and no one is misled into believing a reward is funded.
+
+## 2.4 Contribution model: separate the dimensions
+
+The contribution taxonomy should describe what is offered without conflating its form, function, valuation method, or reward arrangement.
+
+**Contribution form — what is provided:**
+- work or activity;
+- knowledge, expertise, or judgment;
+- artifact or intellectual property;
+- data, evidence, or source material;
+- money or other financial support;
+- physical or digital resource, equipment, or infrastructure;
+- access, introduction, or relationship;
+- distribution, audience access, or promotion;
+- another lawful input that has been explicitly described.
+
+**Project function — what it does in the project:**
+- framing and research;
+- production or implementation;
+- review, testing, or assurance;
+- coordination, integration, or governance;
+- funding and resource provisioning;
+- distribution and market access;
+- maintenance and support.
+
+These are flexible labels, not fixed mutually exclusive buckets. One record can have a form and one or more functions where that helps route or review the work.
+
+**Acceptance/fulfilment method — how it is checked:** inspect an artifact, test a result, confirm an agreed resource was provided, document an introduction or permissioned access, reconcile funding, or use another evidence method appropriate to the promise.
+
+**Reward mode — what was agreed:** keep this separate from contribution form and function. An accepted data contribution, for example, might be paid, voluntary, licensed, reimbursed, or governed by a different agreement. The taxonomy must not decide compensation, ownership, or economic value.
+
+Funding is a project input and a financing relationship; do not count it as if it were the same kind of deliverable as labor or an artifact. Likewise, “outcome-based” is a possible acceptance or reward arrangement, not a contribution category.
 
 ## 2.4 Contribution categories
 
