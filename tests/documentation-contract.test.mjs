@@ -153,7 +153,7 @@ test('secret scanning installs a pinned CLI without account lookup or report upl
 
   assert.match(workflow, /^permissions:\n  contents: read$/m);
   assert.match(workflow, /fetch-depth: 0/);
-  assert.match(workflow, /go-version: "1\.25\.3"/);
+  assert.match(workflow, /go-version: "1\.25\.4"/);
   assert.match(workflow, /go install github\.com\/zricethezav\/gitleaks\/v8@v8\.30\.0/);
   assert.match(workflow, /gitleaks detect --source \. --redact/);
   assert.doesNotMatch(workflow, /pull_request_target/);
