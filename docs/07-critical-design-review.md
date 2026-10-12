@@ -124,7 +124,7 @@ The current lifecycle list mixes project states, contribution states, funding st
 - Evidence, attribution, integration, review, settlement, and dispute handling matter.
 - Start manually; do not automate an unproven process.
 - Do not require a token, universal score, or speculative financial mechanism.
-- Test open-source project work and paid customer work as connected but separately governed tracks. Open-source contribution may support learning and evidence; it is neither commercial validation nor a promise of future paid work.
+- Test one shared contribution system with distinct funding and rights modes: voluntary public work, funded public work, customer-funded public deliverables, and confidential paid work. Use the same project/work-package evidence where appropriate, but never blur funding, compensation, rights, confidentiality, or obligations. Customer demand may fund mentoring and reusable public improvements where agreed; this is a hypothesis, not an assumed benefit.
 
 ### Change
 
@@ -237,4 +237,4 @@ These sources support careful model selection and comparative research; they do 
 
 ## Final decision
 
-**Proceed with a two-track experiment, without broad product implementation yet.** First, define a genuinely useful open-source outcome, resolve licensing and contribution rights, and test onboarding, review, integration, and contributor learning on a small scale. Separately, pursue a well-chosen customer and paid manual coordination pilot to test demand and economics. Neither track substitutes for the other: community activity does not prove commercial viability, and a paid project does not prove the open-source community is sustainable. The next milestone is useful accepted work, fair contributor treatment, and evidence from both tracks.
+**Proceed with an integrated, manually operated work-system experiment; do not build broad software yet.** Define a useful public outcome, identify any real customer or sponsor need that overlaps with it, and break the work into packages with explicit funding and rights modes. Test whether review and mentoring improve accepted outcomes, whether a customer or sponsor will fund contributors or reusable improvements, whether contributors develop useful evidence, and whether the full operating cost is sustainable. Public activity is not commercial validation, and customer revenue does not automatically justify a public release. See [the integrated model](09-integrated-contribution-to-capability-work.md).
