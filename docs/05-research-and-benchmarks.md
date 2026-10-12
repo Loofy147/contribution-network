@@ -127,6 +127,6 @@ These benchmarks support the feasibility of individual mechanisms: funded contri
 
 **Research implication:** the testable difference is whether one shared project/work-package system can connect different funding modes, reusable public improvements, supported skill development, evidence-based contributor matching, and paid customer outcomes with lower friction or better results than separate tools and programs. Compare against existing mentorship, bounty, sponsorship, freelance, and managed-delivery models directly.
 
-## 5.6 Research decision rule
+## 5.7 Research decision rule
 
 Treat an attractive idea as a hypothesis until supported by primary documentation, customer behavior or measured pilot results. Record source date, context, limitations and contradictory evidence. Do not infer market fit from product descriptions, market-size estimates alone, or customer compliments.
