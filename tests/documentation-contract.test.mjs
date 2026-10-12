@@ -128,6 +128,7 @@ test('documentation CI is least-privilege and pins every action immutably', asyn
   assert.match(workflow, /^permissions:\n  contents: read$/m);
   assert.match(workflow, /^concurrency:/m);
   assert.match(workflow, /cancel-in-progress: true/);
+  assert.doesNotMatch(workflow, /\\\\\$\\{\\{/);
   assert.match(workflow, /timeout-minutes: 10/);
   assert.match(workflow, /persist-credentials: false/);
   assert.match(workflow, /^  pull_request:/m);
