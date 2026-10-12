@@ -150,17 +150,15 @@ Before custom software, use a manual pilot and measure the full cost of coordina
 
 Keep all other modes and revenue streams as hypotheses. Do not choose a token model, universal value score, fixed commission rate, complex royalty system or cooperative governance structure until research and pilots give a specific reason to do so.
 
-## 1.9 Open-source and paid-work pathway
+## 1.9 Integrated contribution, capability, and paid-work model
 
-The network may use a genuinely useful open-source project to let people contribute across different roles, learn through review, and build inspectable evidence of their work. This may reduce uncertainty when considering people for later paid projects, but does not guarantee readiness or future paid work.
+Do not make open source merely a volunteer pipeline feeding a separate commercial marketplace. Use one shared project/work-package system with explicit modes for voluntary public work, funded public work, customer-funded public deliverables, and customer-funded confidential work. Funding, rights, publication, confidentiality, acceptance, and compensation must remain explicit at the work-package level.
 
-Keep two tracks explicit:
-- **Open-source track:** public benefit, scoped contributions, chosen license, review feedback, attribution, and portfolio evidence.
-- **Paid track:** externally funded outcomes, selection based on relevant evidence and availability, and clear scope, acceptance, compensation, rights, and settlement before work begins.
+The connection should be reciprocal: real customer needs can fund contributor compensation, review, mentoring, maintenance, and—when the customer agrees—reusable public improvements. Accepted work can provide contextual evidence of capability and support later matching to relevant paid assignments. Contributor development, public value, paid delivery, and commercial sustainability must all be measured; none is a substitute for the others.
 
-Do not require unpaid public contribution as the gateway to paid work, or use volunteer effort as undisclosed customer delivery. Measure learning, community usefulness, and maintainer burden separately from paid demand, customer outcomes, and unit economics. The existing repository is public but has no selected license; resolve licensing and contribution rights before soliciting external work under an open-source promise.
+Do not promise paid work for volunteer contributions, require unpaid public work as the only route into paid assignments, or publish customer-funded outputs without permission. Include mentoring, review, and integration costs in the appropriate budget. The existing repository is public but has no selected license; decide licenses and contribution rights before soliciting external work under an open-source promise.
 
-See [Open-Source Contribution and Paid-Work Pathway](08-open-source-and-paid-pathway.md) for the proposed operating safeguards.
+See [Open-Source Contribution and Paid-Work Pathway](08-open-source-and-paid-pathway.md) and [Integrated Contribution-to-Capability-to-Work Model](09-integrated-contribution-to-capability-work.md) for the operating design.
 
 ## 1.10 Core assumptions to falsify
 
