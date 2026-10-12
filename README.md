@@ -20,7 +20,8 @@ Projects such as Proofline may later use the network. They are examples of proje
 5. [Research and competitive benchmarks](docs/05-research-and-benchmarks.md) — academic and official sources, comparable models, and what remains unproven.
 6. [Elimination-first design method](docs/06-elimination-first-design-method.md) — challenge requirements, delete unnecessary parts, simplify, accelerate cycle time, then automate.
 7. [Critical design review](docs/07-critical-design-review.md) — structured criticism, revised launch thesis, pilot metrics, gates, and stop conditions.
-8. [Open-source and paid-work pathway](docs/08-open-source-and-paid-pathway.md) — using genuine open-source work to support learning and evidence, with paid opportunities governed separately.
+8. [Open-source and paid-work pathway](docs/08-open-source-and-paid-pathway.md) — contributor learning, funding modes, rights, and safeguards.
+9. [Integrated contribution-to-capability-to-work model](docs/09-integrated-contribution-to-capability-work.md) — one shared work system connecting public outcomes, funded tasks, learning, contribution evidence, and customer delivery.
 
 ## Working principles
 
@@ -36,8 +37,10 @@ Projects such as Proofline may later use the network. They are examples of proje
 - **Validate before automating:** operate the first projects manually and build only after repeated needs are observed.
 - **Narrow launch, broad architecture:** support a broad contribution model conceptually, but market and validate one specific buyer problem first.
 - **No premature tokenization:** the model does not require a token, speculative asset, or on-chain mechanism.
-- **Open source with a fair bridge:** public contributions can build skills and work evidence, but do not promise future paid work or replace compensation for funded customer delivery.
-- **Separate community health from commercial validation:** a useful open-source project and a viable paid service are two different outcomes that must be measured separately.
+- **One contribution system, explicit funding modes:** voluntary public work, funded public work, customer-funded public deliverables, and confidential paid work can connect through one workflow without blurring their money, rights, privacy, or obligations.
+- **Learning through useful work:** review, mentorship, increasing responsibility, and evidence can support contributor growth; none guarantees a paid assignment.
+- **Reciprocal public/private value:** customer demand may fund reusable public improvements only when the scope, license, release, and customer benefit are agreed.
+- **Measure both shared and separate outcomes:** public usefulness, contributor development, customer delivery, and commercial sustainability are related but distinct.
 
 ## Initial business-model hypothesis
 
@@ -67,7 +70,7 @@ Do not present these hypotheses as proven market facts.
 
 The long-term ambition is a cross-niche contribution network. The launch hypothesis is narrower: a human-led coordination service for one repeatable buyer problem that requires several materially different contributions. Do not build a broad marketplace until paid pilots establish demand, integration value, and credible economics.
 
-The immediate objective has two connected but separate tracks: (1) design a genuinely useful open-source project that helps contributors learn and creates inspectable work evidence; and (2) test customer demand and service economics through externally paid manual pilots. Open-source activity can validate onboarding and collaboration, but does not prove willingness to pay. See the [critical design review](docs/07-critical-design-review.md) and [open-source pathway](docs/08-open-source-and-paid-pathway.md) for the safeguards and decision gates.
+The immediate objective is to test a shared work system on a small scale: define a useful public outcome, classify work packages by funding and rights, provide credible review, and look for a real overlap with a customer or sponsor need. Where a customer funds reusable public work, agree the benefit and license in advance; where work is private, protect it. Track contributor development and public value alongside—not instead of—paid demand and full delivery economics. See the [critical design review](docs/07-critical-design-review.md), [open-source pathway](docs/08-open-source-and-paid-pathway.md), and [integrated model](docs/09-integrated-contribution-to-capability-work.md).
 
 ## License and usage
 
