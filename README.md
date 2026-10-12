@@ -23,6 +23,7 @@ The Contribution Network itself is Project 0 and the first real project: its fou
 8. [Open-source and paid-work pathway](docs/08-open-source-and-paid-pathway.md) — contributor learning, funding modes, rights, and safeguards.
 9. [Integrated contribution-to-capability-to-work model](docs/09-integrated-contribution-to-capability-work.md) — one shared work system connecting public outcomes, funded tasks, learning, contribution evidence, and customer delivery.
 10. [First-consumer project charter](docs/10-first-consumer-project-charter.md) — the Network itself as the first real project, founder contribution XP, dogfooding, verification levels, and initial engineering priorities.
+11. [Engineering primitives and integration architecture](docs/11-engineering-primitives.md) — GitHub App permissions, MCP authorization/tool boundaries, database organization, secrets, audit/idempotency, and rollout gates.
 
 ## Working principles
 
