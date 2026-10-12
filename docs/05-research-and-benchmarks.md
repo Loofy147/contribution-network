@@ -96,6 +96,23 @@ A proper next round should compare 10–15 platforms and services using the same
 7. Which legal and payment rules apply to the launch jurisdiction and participant geographies?
 8. What repeatable evidence should justify turning manual operations into software?
 
-## 5.5 Research decision rule
+## 5.5 Open source, skill development, and career signaling
+
+GitHub's official contributor guidance identifies documentation, testing, design, community support, and other non-code work as valid ways to contribute. Its open-source guides also describe public work artifacts, peer feedback, mentorship, and collaborative practice as potential benefits. These are practical descriptions of the mechanism, not proof that each contribution improves employability.
+
+- [GitHub Docs: finding ways to contribute](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github)
+- [Open Source Guides: how to contribute](https://opensource.guide/how-to-contribute/)
+
+Empirical work provides a useful caution. A 2025 *Labour Economics* paper studied approximately 22,900 GitHub developers and found evidence that labor-market signaling motivates some open-source activity; it also found that signaling-driven contributions could have lower direct community use-value. Career benefits can therefore coexist with incentives to optimize visibility rather than project usefulness.
+
+- [“Career concerns as a public good: The role of signaling for open source software development”](https://doi.org/10.1016/j.labeco.2025.102800)
+
+A related paper explores using online contributions as a “visual resume” for hiring by aggregating contribution evidence so reviewers can inspect relevant work:
+
+- [“Visual Resume: Exploring developers' online contributions for hiring,” *Information and Software Technology* (2021)](https://doi.org/10.1016/j.infsof.2021.106633)
+
+**Lesson for this network:** preserve concrete artifacts, the contributor's actual role, acceptance evidence and review context. Do not equate commit counts or public visibility with ability. Do not promise that open-source contributions lead to paid work, and do not require unpaid public contributions as the only route to demonstrate skills for paid assignments.
+
+
 
 Treat an attractive idea as a hypothesis until supported by primary documentation, customer behavior or measured pilot results. Record source date, context, limitations and contradictory evidence. Do not infer market fit from product descriptions, market-size estimates alone, or customer compliments.
