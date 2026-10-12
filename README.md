@@ -9,7 +9,7 @@ The Contribution Network is a project-based, cross-niche network for turning nee
 
 The network is not just a job board or a software-bounty site. **The project is the unit of coordination; contributions are the units of participation; the accepted outcome is the unit of delivery.**
 
-Projects such as Proofline may later use the network. They are examples of projects, not the definition or scope of the network itself.
+The Contribution Network itself is Project 0 and the first real project: its founder is the first consumer, using the system to build, test, and improve the system. This dogfooding validates first-consumer usefulness, not external market demand by itself. Other projects, including examples such as Proofline, may later use the network; they are examples, not the definition or limit of its scope.
 
 ## Foundational documents
 
@@ -22,6 +22,7 @@ Projects such as Proofline may later use the network. They are examples of proje
 7. [Critical design review](docs/07-critical-design-review.md) — structured criticism, revised launch thesis, pilot metrics, gates, and stop conditions.
 8. [Open-source and paid-work pathway](docs/08-open-source-and-paid-pathway.md) — contributor learning, funding modes, rights, and safeguards.
 9. [Integrated contribution-to-capability-to-work model](docs/09-integrated-contribution-to-capability-work.md) — one shared work system connecting public outcomes, funded tasks, learning, contribution evidence, and customer delivery.
+10. [First-consumer project charter](docs/10-first-consumer-project-charter.md) — the Network itself as the first real project, founder contribution XP, dogfooding, verification levels, and initial engineering priorities.
 
 ## Working principles
 
@@ -41,6 +42,7 @@ Projects such as Proofline may later use the network. They are examples of proje
 - **Learning through useful work:** review, mentorship, increasing responsibility, and evidence can support contributor growth; none guarantees a paid assignment.
 - **Reciprocal public/private value:** customer demand may fund reusable public improvements only when the scope, license, release, and customer benefit are agreed.
 - **Measure both shared and separate outcomes:** public usefulness, contributor development, customer delivery, and commercial sustainability are related but distinct.
+- **First consumer first:** build and use the Network itself as the first real project. The founder's useful contributions count under the same transparent evidence and XP rules; author identity, verification strength, and release approval remain explicitly recorded.
 
 ## Initial business-model hypothesis
 
@@ -68,9 +70,9 @@ Do not present these hypotheses as proven market facts.
 
 ## Current decision
 
-The long-term ambition is a cross-niche contribution network. The launch hypothesis is narrower: a human-led coordination service for one repeatable buyer problem that requires several materially different contributions. Do not build a broad marketplace until paid pilots establish demand, integration value, and credible economics.
+The long-term ambition is a cross-niche contribution network. Its first real project is the Network itself, built and improved by its founder as first consumer. This internal project can validate usefulness, workflow, and engineering quality. A separate narrow buyer/problem pilot is still required before claiming external market demand or choosing to scale a commercial service. Do not confuse these two kinds of evidence.
 
-The immediate objective is to test a shared work system on a small scale: define a useful public outcome, classify work packages by funding and rights, provide credible review, and look for a real overlap with a customer or sponsor need. Where a customer funds reusable public work, agree the benefit and license in advance; where work is private, protect it. Track contributor development and public value alongside—not instead of—paid demand and full delivery economics. See the [critical design review](docs/07-critical-design-review.md), [open-source pathway](docs/08-open-source-and-paid-pathway.md), and [integrated model](docs/09-integrated-contribution-to-capability-work.md).
+The immediate objective is to build and use the Network on its own first real project. Track actual founder contributions, tests, decisions, and accepted outcomes through transparent evidence and XP rules; use a manual GitHub-based fallback when the running product cannot yet support a workflow. In parallel, keep external demand, paid pilots, and full delivery economics as separate evidence gates for any later commercial offering. See the [critical design review](docs/07-critical-design-review.md), [open-source pathway](docs/08-open-source-and-paid-pathway.md), [integrated model](docs/09-integrated-contribution-to-capability-work.md), and [first-consumer charter](docs/10-first-consumer-project-charter.md).
 
 ## License and usage
 
