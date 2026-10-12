@@ -115,6 +115,18 @@ A related paper explores using online contributions as a “visual resume” for
 
 
 
+## 5.6 Integrated mentorship, paid contribution, and open-source funding
+
+Existing programs demonstrate that separate pieces of the proposed mechanism are already practiced:
+
+- The [Linux Foundation Mentorship program](https://docs.linuxfoundation.org/lfx/mentorship/mentor-guide/introduction) describes structured, hands-on learning on open-source projects, including paid opportunities and potential employer connections.
+- [Outreachy](https://www.outreachy.org/) offers paid internships involving open-source software and non-code activities. Its guidance is explicit that an internship is not a guarantee of employment with a sponsor.
+- [GitHub Sponsors](https://docs.github.com/en/sponsors) provides a way to financially support open-source contributors and the projects/maintainers on which users depend.
+
+These benchmarks support the feasibility of individual mechanisms: funded contribution, mentorship, and possible career progression. They do not prove that a unified cross-niche system will be novel, fair, or sustainable.
+
+**Research implication:** the testable difference is whether one shared project/work-package system can connect different funding modes, reusable public improvements, supported skill development, evidence-based contributor matching, and paid customer outcomes with lower friction or better results than separate tools and programs. Compare against existing mentorship, bounty, sponsorship, freelance, and managed-delivery models directly.
+
 ## 5.6 Research decision rule
 
 Treat an attractive idea as a hypothesis until supported by primary documentation, customer behavior or measured pilot results. Record source date, context, limitations and contradictory evidence. Do not infer market fit from product descriptions, market-size estimates alone, or customer compliments.
