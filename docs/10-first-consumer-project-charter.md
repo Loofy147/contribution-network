@@ -101,7 +101,7 @@ Move a workflow into the product only after its behavior and safeguards are unde
 ## 7. Repository responsibilities
 
 - **`contribution-network`:** strategy, portfolio structure, operating contracts, economics, governance, and decision history. This charter is the authoritative statement of the first-consumer premise.
-- **`Contribution-bounties-centre-`:** the initial application prototype implementing parts of the contract. Application rules and tests should be aligned with this charter incrementally.
+- **[`Contribution-bounties-centre-`](https://github.com/Loofy147/Contribution-bounties-centre-):** the initial application prototype implementing parts of the contract. Its [portfolio-alignment page](https://github.com/Loofy147/Contribution-bounties-centre-/blob/main/docs/portfolio-alignment.md) records the shared rules and implementation gaps. Application rules and tests should be aligned with this charter incrementally. The app does not yet implement the complete founder self-contribution XP and verification-level workflow.
 - **GitHub issues and pull requests:** concrete work items, implementation trace, code review, and release evidence.
 - **Shared project/contribution records:** connect strategic intent to the work performed without duplicating policy text unnecessarily.
 
