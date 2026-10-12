@@ -76,6 +76,10 @@ The long-term ambition is a cross-niche contribution network. Its first real pro
 
 The immediate objective is to build and use the Network on its own first real project. Track actual founder contributions, tests, decisions, and accepted outcomes through transparent evidence and XP rules; use a manual GitHub-based fallback when the running product cannot yet support a workflow. In parallel, keep external demand, paid pilots, and full delivery economics as separate evidence gates for any later commercial offering. See the [critical design review](docs/07-critical-design-review.md), [open-source pathway](docs/08-open-source-and-paid-pathway.md), [integrated model](docs/09-integrated-contribution-to-capability-work.md), and [first-consumer charter](docs/10-first-consumer-project-charter.md).
 
+### Current working state and future control plane
+
+Until the system passes its readiness gates, active design, implementation, tracking, and improvement stay in the existing `Loofy147` repositories: this strategic repository and [`Contribution-bounties-centre-`](https://github.com/Loofy147/Contribution-bounties-centre-), supported by GitHub issues and pull requests. [`contribution-cloud/Contributions-centre`](https://github.com/contribution-cloud/Contributions-centre) is reserved as the future portfolio and repository-management control plane. It is intentionally deferred: do not initialize it, move active work there, or make development depend on it before the system is demonstrably ready. The transition boundary and acceptance gates are documented in [the first-consumer charter](docs/10-first-consumer-project-charter.md) and [the engineering architecture](docs/11-engineering-primitives.md).
+
 ## License and usage
 
 No repository license has been selected yet. Do not infer reuse permissions from the repository being public. Choose and add a license after deciding what it covers, including third-party materials.
