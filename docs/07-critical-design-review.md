@@ -124,6 +124,7 @@ The current lifecycle list mixes project states, contribution states, funding st
 - Evidence, attribution, integration, review, settlement, and dispute handling matter.
 - Start manually; do not automate an unproven process.
 - Do not require a token, universal score, or speculative financial mechanism.
+- Test open-source project work and paid customer work as connected but separately governed tracks. Open-source contribution may support learning and evidence; it is neither commercial validation nor a promise of future paid work.
 
 ### Change
 
@@ -236,4 +237,4 @@ These sources support careful model selection and comparative research; they do 
 
 ## Final decision
 
-**Proceed to buyer/problem selection and a paid manual coordination pilot. Do not proceed to broad product implementation yet.** The next meaningful milestone is not another feature list: it is a well-chosen customer, a signed outcome and terms, delivered evidence, a full cost record, and a decision based on what happened.
+**Proceed with a two-track experiment, without broad product implementation yet.** First, define a genuinely useful open-source outcome, resolve licensing and contribution rights, and test onboarding, review, integration, and contributor learning on a small scale. Separately, pursue a well-chosen customer and paid manual coordination pilot to test demand and economics. Neither track substitutes for the other: community activity does not prove commercial viability, and a paid project does not prove the open-source community is sustainable. The next milestone is useful accepted work, fair contributor treatment, and evidence from both tracks.
