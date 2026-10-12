@@ -134,6 +134,8 @@ Potential streams, in likely order of exploration:
 
 These are candidate revenue models, not validated revenue sources. Do not count the entire project budget or the estimated value of non-cash contributions as network revenue.
 
+Open source is a possible product-development and contributor-learning strategy, not a revenue stream by itself. Sponsorships, grants, paid coordination, support, and customer-funded delivery may help sustain different parts of the work, but each funding source must be tested. See [Open-Source Contribution and Paid-Work Pathway](08-open-source-and-paid-pathway.md).
+
 ## 1.8 Initial recommendation
 
 Start as a **human-led, buyer-funded coordination service** for one narrow, repeatable outcome that requires multiple materially different contributions. A named project steward helps define the work, source contributions, coordinate dependencies, manage review, and record the accepted result.
@@ -148,7 +150,19 @@ Before custom software, use a manual pilot and measure the full cost of coordina
 
 Keep all other modes and revenue streams as hypotheses. Do not choose a token model, universal value score, fixed commission rate, complex royalty system or cooperative governance structure until research and pilots give a specific reason to do so.
 
-## 1.9 Core assumptions to falsify
+## 1.9 Open-source and paid-work pathway
+
+The network may use a genuinely useful open-source project to let people contribute across different roles, learn through review, and build inspectable evidence of their work. This may reduce uncertainty when considering people for later paid projects, but does not guarantee readiness or future paid work.
+
+Keep two tracks explicit:
+- **Open-source track:** public benefit, scoped contributions, chosen license, review feedback, attribution, and portfolio evidence.
+- **Paid track:** externally funded outcomes, selection based on relevant evidence and availability, and clear scope, acceptance, compensation, rights, and settlement before work begins.
+
+Do not require unpaid public contribution as the gateway to paid work, or use volunteer effort as undisclosed customer delivery. Measure learning, community usefulness, and maintainer burden separately from paid demand, customer outcomes, and unit economics. The existing repository is public but has no selected license; resolve licensing and contribution rights before soliciting external work under an open-source promise.
+
+See [Open-Source Contribution and Paid-Work Pathway](08-open-source-and-paid-pathway.md) for the proposed operating safeguards.
+
+## 1.10 Core assumptions to falsify
 
 - Customers prefer an integrated outcome to buying each contribution independently.
 - Contributors will participate when terms, reward options, attribution, and dispute paths are clear.
