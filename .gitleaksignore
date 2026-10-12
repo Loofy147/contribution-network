@@ -1,0 +1,3 @@
+# Reviewed false-positive allowlist. Keep entries fingerprint-specific; never suppress the generic-api-key rule globally.
+# 2026-10-12 review: docs/07-critical-design-review.md line 97 describes tokenization as a deferred product mechanism. Inspection of that historical line and surrounding context found no credential material.
+3b404a9adf969c9765ef394f4c2a126acc39d79e:docs/07-critical-design-review.md:generic-api-key:97
