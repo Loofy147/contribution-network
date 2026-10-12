@@ -151,6 +151,7 @@ test('documentation CI is least-privilege and pins every action immutably', asyn
 
 test('secret scanning installs a pinned CLI without account lookup or report uploads', async () => {
   const workflow = await readFile(path.join(root, '.github/workflows/secrets-scan.yml'), 'utf8');
+  const ignoreFile = await readFile(path.join(root, '.gitleaksignore'), 'utf8');
 
   assert.doesNotMatch(workflow, /\\\\\$\\{\\{/);
   assert.match(workflow, /^permissions:\n  contents: read$/m);
@@ -166,6 +167,16 @@ test('secret scanning installs a pinned CLI without account lookup or report upl
   assert.doesNotMatch(workflow, /pull-requests:\s*write/);
   assert.doesNotMatch(workflow, /secrets\./);
   assert.doesNotMatch(workflow, /GITLEAKS_ENABLE_UPLOAD_ARTIFACT/);
+  const ignoreEntries = ignoreFile
+    .split(/\r?\n/)
+    .map((entry) => entry.trim())
+    .filter((entry) => entry && !entry.startsWith('#'));
+  assert.deepEqual(
+    ignoreEntries,
+    ['3b404a9adf969c9765ef394f4c2a126acc39d79e:docs/07-critical-design-review.md:generic-api-key:97'],
+    'only the individually reviewed non-secret historical finding may be ignored',
+  );
+  assert.match(ignoreFile, /inspection of that historical line and surrounding context found no credential material/i);
 
   const actionRefs = [...workflow.matchAll(/^\s*uses:\s*([^\s]+)/gm)]
     .map((match) => match[1]);
