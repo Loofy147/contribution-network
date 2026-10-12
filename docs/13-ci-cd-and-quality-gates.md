@@ -26,7 +26,7 @@ The repository is documentation-first. Its CI runs a Node.js documentation contr
 - checks local Markdown links resolve inside the repository;
 - checks the workflow's minimal permissions, commit-SHA action pins, bounded execution and token handling;
 - ensures the current working boundary and non-automated deployment status stay explicit.
-A separate Gitleaks workflow installs the pinned v8.30.0 CLI and scans full Git history with redacted output. It does not call the GitHub account API, need a Gitleaks license, write PR comments, or upload scan reports. Dependabot raises updates for GitHub Actions.
+A separate Gitleaks workflow installs the pinned v8.30.0 CLI and scans full Git history with redacted output. It does not call the GitHub account API, need a Gitleaks license, write PR comments, or upload scan reports. The initial scan identified one `generic-api-key` match in the prose discussing tokenization; the historical line and surrounding context were reviewed and contained no credential. Only that exact commit/file/rule/line fingerprint is allowlisted in [`.gitleaksignore`](../.gitleaksignore); no rule-wide suppression is used. Dependabot raises updates for GitHub Actions.
 
 No dependencies need to be installed for this contract suite. The workflow uses read-only permissions and pinned GitHub Actions.
 
@@ -70,7 +70,7 @@ Until those conditions are implemented and running, this gate remains **blocked*
 
 ### P0 — Security and authorization
 - CodeQL findings are triaged and material findings fixed or explicitly risk-accepted.
-- The pinned Gitleaks CLI scans full Git history with redacted output and no report artifact upload; any confirmed exposed credential is revoked/rotated, not merely deleted from the latest file.
+- The pinned Gitleaks CLI scans full Git history with redacted output and no report artifact upload. A single context-reviewed false positive is allowlisted by exact fingerprint; any confirmed exposed credential must be revoked/rotated, not merely deleted from the latest file.
 - Dependency updates and vulnerability alerts are reviewed.
 - No secrets are placed in source files, frontend assets, workflow logs or normal application records.
 - Backend permission checks are covered by negative tests, including cross-project access and unauthorized state transitions.
