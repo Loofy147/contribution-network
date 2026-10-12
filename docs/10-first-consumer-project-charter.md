@@ -98,11 +98,29 @@ Until the application reliably supports a workflow, use the simplest reliable fa
 
 Move a workflow into the product only after its behavior and safeguards are understood. Keep a clear trace from the original request through implementation, review, evidence, and release. Do not claim that dogfooding occurred merely because a feature exists; record an actual use and the result.
 
+### Current working state and future control plane
+
+During implementation, keep the working state in the existing `Loofy147` repositories: this repository holds strategic goals, operating rules, decisions and architecture; [`Contribution-bounties-centre-`](https://github.com/Loofy147/Contribution-bounties-centre-) holds the current application prototype. GitHub issues, pull requests, evidence and test results remain the operational work trace.
+
+[`contribution-cloud/Contributions-centre`](https://github.com/contribution-cloud/Contributions-centre) is the intended future portfolio/repository control plane, **not the current work location**. Leave it untouched until the system is demonstrably ready to manage its own project and repository inventory. Do not make current development dependent on that future hub.
+
+Readiness is evidence-based, not a calendar date. Before handover, verify at minimum:
+- a reproducible build and documented runtime/setup path;
+- end-to-end verification of core contribution, review, revision and exactly-once XP transitions;
+- tested identity, workspace/project authorization, and cross-project isolation;
+- secure credential storage and validated API authentication/authorization, including expiry, scopes, rotation and revocation;
+- selected-repository GitHub connection and any enabled repository write/creation path, with explicit permission and confirmation gates;
+- auditable consequential changes, idempotency, and tested recovery/rollback procedures;
+- documentation, roadmap and implementation status reconciled against observed behavior, with remaining risks explicitly recorded.
+
+A checklist item is complete only when the corresponding evidence exists. Until then, continue improving the current repositories and use manual GitHub workflows where the product is not yet reliable.
+
 ## 7. Repository responsibilities
 
 - **`contribution-network`:** strategy, portfolio structure, operating contracts, economics, governance, and decision history. This charter is the authoritative statement of the first-consumer premise.
 - **[`Contribution-bounties-centre-`](https://github.com/Loofy147/Contribution-bounties-centre-):** the initial application prototype implementing parts of the contract. Its [portfolio-alignment page](https://github.com/Loofy147/Contribution-bounties-centre-/blob/main/docs/portfolio-alignment.md) records the shared rules and implementation gaps. Application rules and tests should be aligned with this charter incrementally. The app does not yet implement the complete founder self-contribution XP and verification-level workflow.
 - **GitHub issues and pull requests:** concrete work items, implementation trace, code review, and release evidence.
+- **[`contribution-cloud/Contributions-centre`](https://github.com/contribution-cloud/Contributions-centre):** the planned future portfolio/repository control plane. It is deferred until the readiness gates in Section 6 pass; it is not an active implementation repository and must not be treated as an operational dependency.
 - **Shared project/contribution records:** connect strategic intent to the work performed without duplicating policy text unnecessarily.
 
 Do not maintain competing copies of the same authoritative rule. If product behavior conflicts with the charter, record the discrepancy and resolve it; do not assume either the documentation or interface is correct without verification.
