@@ -116,7 +116,7 @@ test('current working boundary and deployment claims remain explicit', async () 
 
   assert.match(readme, /contribution-cloud\/Contributions-centre/);
   assert.match(charter, /readiness is evidence-based/i);
-  assert.match(charter, /do not initialize it/i);
+  assert.match(readme, /do not initialize it/i);
   assert.match(ciSpec, /no GitHub Actions workflow should claim to deploy the application/i);
   assert.match(ciSpec, /reproducible build/i);
 });
