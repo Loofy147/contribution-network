@@ -17,6 +17,16 @@ The Network is its first project and first consumer. Use the app to improve the 
 
 These are different trust boundaries. Access in one does not implicitly grant access in another.
 
+### 1.1 Current working state and deferred control-plane transition
+
+The active working state remains in the existing `Loofy147` repositories:
+- [`contribution-network`](https://github.com/Loofy147/contribution-network) is the strategic and operating source of truth.
+- [`Contribution-bounties-centre-`](https://github.com/Loofy147/Contribution-bounties-centre-) is the current application implementation and prototype.
+
+[`contribution-cloud/Contributions-centre`](https://github.com/contribution-cloud/Contributions-centre) is reserved for the later portfolio/repository control plane. Do not initialize it, migrate active work to it, or make the current build depend on it before system readiness has been demonstrated. Its intended purpose is to inventory projects and repositories, govern their lifecycle, and eventually initiate authorized repository operations through the system.
+
+Use the Section 6 readiness gates in the [first-consumer charter](10-first-consumer-project-charter.md) as the handover baseline. Before transitioning, also verify that the target control plane can be initialized with an accurate seed inventory, respects the separate `contribution-cloud` GitHub identity/permissions, and records the actual result of every repository operation. Access through ChatGPT's connected GitHub tools is not proof that the future app integration is configured.
+
 ## 2. Core trust boundaries
 
 1. **App identity:** authenticates a user to the Contribution Network through the app's identity provider.
