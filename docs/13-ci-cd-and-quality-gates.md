@@ -24,7 +24,9 @@ A green static test does not prove a build, runtime behavior, security, or deplo
 The repository is documentation-first. Its CI runs a Node.js documentation contract suite that:
 - verifies the README indexes the canonical documents;
 - checks local Markdown links resolve inside the repository;
+- checks the workflow's minimal permissions, commit-SHA action pins, bounded execution and token handling;
 - ensures the current working boundary and non-automated deployment status stay explicit.
+A separate Gitleaks workflow scans the full Git history with PR comments and secret-bearing report artifacts disabled. Dependabot raises updates for GitHub Actions.
 
 No dependencies need to be installed for this contract suite. The workflow uses read-only permissions and pinned GitHub Actions.
 
@@ -68,6 +70,7 @@ Until those conditions are implemented and running, this gate remains **blocked*
 
 ### P0 — Security and authorization
 - CodeQL findings are triaged and material findings fixed or explicitly risk-accepted.
+- Gitleaks scans the repository history; any confirmed exposed credential is revoked/rotated, not merely deleted from the latest file.
 - Dependency updates and vulnerability alerts are reviewed.
 - No secrets are placed in source files, frontend assets, workflow logs or normal application records.
 - Backend permission checks are covered by negative tests, including cross-project access and unauthorized state transitions.
