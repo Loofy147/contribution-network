@@ -95,6 +95,8 @@ See [Using webhooks with GitHub Apps](https://docs.github.com/en/apps/creating-g
 
 Before a live connection can be deployed, register a GitHub App and configure at minimum the selected callback URL, permissions and installation visibility. The app's current AppDeploy secret list was empty when checked, so no GitHub App credentials are presently configured.
 
+For the credential taxonomy, API-key lifecycle, bearer-token validation, secret references, rotation/revocation, and API acceptance gates, use the dedicated [Credential, Bearer-Token, Key and API Management contract](12-credential-and-api-management.md). This document remains the integration overview; the dedicated contract governs credential lifecycle requirements.
+
 Candidate backend-only secret names:
 - GITHUB_APP_ID
 - GITHUB_CLIENT_ID
