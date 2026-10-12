@@ -115,4 +115,6 @@ A related paper explores using online contributions as a “visual resume” for
 
 
 
+## 5.6 Research decision rule
+
 Treat an attractive idea as a hypothesis until supported by primary documentation, customer behavior or measured pilot results. Record source date, context, limitations and contradictory evidence. Do not infer market fit from product descriptions, market-size estimates alone, or customer compliments.
