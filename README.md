@@ -19,6 +19,7 @@ Projects such as Proofline may later use the network. They are examples of proje
 4. [Governance and validation plan](docs/04-governance-and-validation.md) — trust, rights, disputes, market research and pilot gates.
 5. [Research and competitive benchmarks](docs/05-research-and-benchmarks.md) — academic and official sources, comparable models, and what remains unproven.
 6. [Elimination-first design method](docs/06-elimination-first-design-method.md) — challenge requirements, delete unnecessary parts, simplify, accelerate cycle time, then automate.
+7. [Critical design review](docs/07-critical-design-review.md) — structured criticism, revised launch thesis, pilot metrics, gates, and stop conditions.
 
 ## Working principles
 
@@ -32,6 +33,7 @@ Projects such as Proofline may later use the network. They are examples of proje
 - **Trust by design:** protect confidential information, respect licensing and permissions, minimize data collection, and prevent deceptive or harmful activity.
 - **Eliminate before optimizing:** challenge requirements, delete unnecessary parts, simplify what remains, accelerate cycle time, and automate only after the process is proven.
 - **Validate before automating:** operate the first projects manually and build only after repeated needs are observed.
+- **Narrow launch, broad architecture:** support a broad contribution model conceptually, but market and validate one specific buyer problem first.
 - **No premature tokenization:** the model does not require a token, speculative asset, or on-chain mechanism.
 
 ## Initial business-model hypothesis
@@ -58,9 +60,11 @@ These modes have different costs, responsibilities and risk. They must be valida
 
 Do not present these hypotheses as proven market facts.
 
-## First objective
+## Current decision
 
-Establish a clear and testable business model, then run a small, manually coordinated paid pilot before building the full platform. The pilot must test both contribution coordination and real customer willingness to pay.
+The long-term ambition is a cross-niche contribution network. The launch hypothesis is narrower: a human-led coordination service for one repeatable buyer problem that requires several materially different contributions. Do not build a broad marketplace until paid pilots establish demand, integration value, and credible economics.
+
+The immediate objective is to choose one buyer/problem pair, secure an externally paid manual pilot, document the agreed outcome and terms, measure the full cost of coordination and integration, and test whether the workflow repeats. See the [critical design review](docs/07-critical-design-review.md) for decision gates.
 
 ## License and usage
 
