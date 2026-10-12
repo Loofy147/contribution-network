@@ -23,6 +23,23 @@ OECD, “Platform cooperatives and employment: An alternative for platform work,
 
 - OECD: https://www.oecd.org/en/publications/platform-cooperatives-and-employment_3eab339f-en.html
 
+### Marketplace business-model choices
+
+Täuscher and Laudien, “Understanding platform business models: A mixed methods study of marketplaces” (2017 working-paper version). The study develops a taxonomy of marketplace designs and examines choices across value proposition/delivery, value creation, and value capture using secondary-source data on marketplaces. It is a useful reminder that “marketplace” does not specify one operating model: target customer, service scope, orchestration, community role, pricing, and which participant pays all matter.
+
+- Author version: https://pure.manchester.ac.uk/ws/files/78787819/2017_Taeuscher_Laudien_Platform_Business_Models_Author_version.pdf
+
+**Lesson:** define the buyer, what the operator actually does, who pays, and how value becomes revenue before specifying platform features. A digital platform is not, by itself, a differentiated business model.
+
+### Systematic reviews of crowdsourcing
+
+Two broad reviews are useful background but are not evidence that this particular network will succeed:
+
+- “Crowdsourcing and open innovation: a systematic literature review, an integrated framework and a research agenda,” *Review of Managerial Science*: https://link.springer.com/article/10.1007/s11846-021-00482-9
+- “Crowdsourcing: a systematic review of the literature using text mining,” *Industrial Management & Data Systems* (2020), which analyzed 106 papers and organized themes around performance, innovation, operational aspects, and motivations: https://www.emerald.com/imds/article/120/11/2041/177742/Crowdsourcing-a-systematic-review-of-the
+
+**Lesson:** crowdsourcing spans different tasks, incentives, organizational practices, and goals. Use literature to identify design risks and comparison dimensions; use customer behavior and paid delivery to validate this specific business.
+
 ## 5.2 Adjacent platform benchmarks
 
 ### Topcoder — managed crowdsourced project delivery
