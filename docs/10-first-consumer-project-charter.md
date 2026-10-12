@@ -153,6 +153,18 @@ Track internal product progress separately from market and social-impact claims.
 
 Successful internal use is legitimate progress. It must not be confused with external product-market fit. Likewise, do not delay improvements that matter to the first consumer merely because an external customer has not yet appeared.
 
+## 11. Platform engineering primitives
+
+The supporting architecture for GitHub connections, scoped permissions, MCP tools, structured data, and operational controls is defined in [Engineering Primitives and Integration Architecture](11-engineering-primitives.md). That document is the detailed target contract for:
+- separate Network identity, GitHub installation, project membership, and MCP authorization;
+- least-privilege GitHub App access and selected-repository linking;
+- project/workspace data boundaries, schema evolution, event history, and idempotent XP;
+- secure secret management, webhook verification, auditability, and bounded retries;
+- read-only MCP capabilities before any write tools;
+- reproducible setup, CI, backup/restore, observability, and release safety.
+
+These are target capabilities, not claims that the current app already implements them. The application roadmap tracks implementation and verification.
+
 ## 10. Operating decision
 
 Build the Contribution Network as a real, evolving project for its first consumer—the founder—and use it to validate, improve, and document its own operating model. Count the founder's contributions under transparent evidence and XP rules. Keep the architecture open to community-run projects and contribution types, while shipping in safe, testable increments.
