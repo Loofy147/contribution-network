@@ -123,34 +123,41 @@ A claim that no direct competitor exists requires documented market mapping. Do 
 
 ## 4.9 Manual pilot
 
-Run one real, scoped project without first building the full platform.
+Run one real, tightly scoped project before building a platform. The pilot tests the buyer's problem, the value of coordination, the fairness of the process, and the full cost of delivery.
 
-Pilot outline:
-1. Secure a real project owner and a concrete outcome.
-2. Agree acceptance criteria, budget, responsibilities, data/IP rights and rewards.
-3. Create a contribution ledger using a spreadsheet or issue tracker.
-4. Invite a small group with several different contribution types.
-5. Track proposed, agreed, submitted, accepted, rejected, disputed and settled contributions.
-6. Deliver and obtain the owner's acceptance.
-7. Honor reward agreements.
-8. Calculate actual economics and interview customer/contributors.
-9. Decide whether to repeat, revise or stop.
+1. Select one buyer/problem pair based on recent real behavior, an identified budget owner, a measurable outcome, and a practical way to source contributors.
+2. Secure an externally paying customer and name the person who can accept the outcome. A founder-funded or volunteer demonstration can teach workflow but does not validate willingness to pay.
+3. Agree scope, exclusions, acceptance criteria, budget, roles, rights, confidentiality, payment/benefit terms, revision limits, cancellation conditions, and dispute path before contributions begin.
+4. If testing the multi-contribution thesis, include at least two materially different contribution forms or specialist functions. Do not manufacture unnecessary complexity merely to hit a count.
+5. Use a spreadsheet or issue tracker, one accountable project steward, and a short decision log.
+6. Track time and cost across sourcing, coordination, review, integration, rework, acquisition, payment, support, and disputes. Record founder and volunteer time rather than treating it as free.
+7. Complete acceptance and settlement, then compare the result and total effort with the customer's prior or best available alternative.
+8. Ask for concrete next behavior: follow-on purchase, paid referral, or a second comparable buyer. Compliments and hypothetical interest are not sufficient.
 
-For validation of commercial demand, prefer a paid pilot. If the first project is self-funded or voluntary, label the commercial gate incomplete.
+No substantial speculative unpaid work. Where an input is voluntary, state what is and is not promised, who may use it, how it will be credited, and what rights remain with the contributor.
 
-## 4.10 Decision gates
+## 4.10 Decision gates and measurement
 
-Suggested gates for moving beyond a manual pilot (adjust once scope and pricing are known):
-- real customer accepts a specified outcome;
-- several meaningfully different contribution types are used;
-- each accepted contribution has an attributable record and evidence;
-- compensation and rights terms were understood and honored;
-- delivery completes without unresolved material disputes;
-- actual project economics identify a credible path to positive contribution margin;
-- customer indicates credible repeat demand, ideally evidenced by a follow-on purchase or referral;
-- contributors consider the process fair enough to participate again.
+Before each pilot, write down the thresholds or decision rules. Do not choose a success definition after seeing the result.
 
-One successful project is learning, not proof that the model works across all niches. Repeat the process across a few projects before building a broad automated marketplace.
+Measure at least:
+- **Demand:** actual external payment, the payer, price, collection status, and evidence of repeat demand.
+- **Outcome:** acceptance against pre-agreed criteria, evidence, defects, limitations, and elapsed time.
+- **Coordination:** buyer hours, steward hours, waiting time, handoffs, blockers, and comparison with the baseline.
+- **Integration:** contribution forms/functions combined, dependency failures, review hours, and rework.
+- **Economics:** service revenue excluding pass-through funds, contributor costs, review/integration, coordinator time, acquisition, processing, support, dispute and rework costs; label estimates.
+- **Trust:** terms agreed before work, reasoned decisions, settled commitments, rights/attribution records, and unresolved disputes.
+- **Repeatability:** follow-on purchase, paid referral, comparable demand from another buyer, and contributor return.
+
+Do not count pass-through project funding or estimated non-cash value as network revenue. Fully cost founder/steward effort. Run sensitivity cases for greater coordination, rework, or customer-acquisition costs where the base estimate is uncertain.
+
+Use these provisional gates:
+
+- **Problem gate:** a recent, costly workaround; a clear buyer and budget authority; an observable outcome; and a credible paid-pilot route.
+- **Pilot gate:** a real buyer funds the scope, the agreed outcome is accepted or the failure is explained, all promised terms are honored, and full delivery cost is recorded.
+- **Build gate:** as a default, complete three paid pilots in the same use case across at least two customers before custom software. Require a substantially repeatable workflow, acceptable delivery and trust results, and a credible path to positive fully costed contribution margin. Document the evidence for any exception.
+
+These numbers are operating defaults, not research-derived industry benchmarks. Set exact targets for cycle time, margin, rework, and acceptance before each pilot. Stop or redesign if buyers will not pay, coordination costs exceed the value created, acceptable outcomes cannot be judged fairly, or risks cannot be managed proportionately.
 
 ## 4.11 Legal and operating guardrail
 
