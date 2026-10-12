@@ -18,6 +18,7 @@ Projects such as Proofline may later use the network. They are examples of proje
 3. [Value, rewards and economics](docs/03-value-rewards-and-economics.md) — optional valuation, reward agreements, project budgets and unit economics.
 4. [Governance and validation plan](docs/04-governance-and-validation.md) — trust, rights, disputes, market research and pilot gates.
 5. [Research and competitive benchmarks](docs/05-research-and-benchmarks.md) — academic and official sources, comparable models, and what remains unproven.
+6. [Elimination-first design method](docs/06-elimination-first-design-method.md) — challenge requirements, delete unnecessary parts, simplify, accelerate cycle time, then automate.
 
 ## Working principles
 
@@ -29,6 +30,7 @@ Projects such as Proofline may later use the network. They are examples of proje
 - **Fair allocation:** define acceptance, reward and dispute rules before contributors commit.
 - **Project-level traceability:** maintain records of dependencies, contributors, evidence, decisions, rewards and rights.
 - **Trust by design:** protect confidential information, respect licensing and permissions, minimize data collection, and prevent deceptive or harmful activity.
+- **Eliminate before optimizing:** challenge requirements, delete unnecessary parts, simplify what remains, accelerate cycle time, and automate only after the process is proven.
 - **Validate before automating:** operate the first projects manually and build only after repeated needs are observed.
 - **No premature tokenization:** the model does not require a token, speculative asset, or on-chain mechanism.
 
