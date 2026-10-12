@@ -138,6 +138,8 @@ Open source is a possible product-development and contributor-learning strategy,
 
 ## 1.8 Initial recommendation
 
+**First-consumer project and commercial launch are separate tracks.** The Contribution Network itself is the first real project, with its founder as first consumer. Use it to build and dogfood the shared contribution workflow, record the founder's work, and discover defects. This validates internal usefulness and engineering practice; it does not prove that external customers will pay. The buyer-funded coordination service described below remains a separate commercial hypothesis to validate later.
+
 Start as a **human-led, buyer-funded coordination service** for one narrow, repeatable outcome that requires multiple materially different contributions. A named project steward helps define the work, source contributions, coordinate dependencies, manage review, and record the accepted result.
 
 The customer and agreement must state who is accountable for integration and final acceptance. Do not imply that the network guarantees the final result unless the service is explicitly priced and contracted to assume that risk.
