@@ -309,7 +309,7 @@ As checked on 2026-10-13:
 - This is the first scaling/data-isolation increment, **not** complete workspace/project membership authorization. The app does not yet enforce project membership boundaries because explicit workspace/project membership records and negative cross-project authorization tests remain to be implemented. Index reads are bounded; UI pagination beyond the first index page remains follow-up work.
 - The AppDeploy app secret list was empty at the last verified inventory. No GitHub App connection is configured and no Network MCP server is implemented.
 - The source snapshot imports AppDeploy client/server packages that are not declared in the checked-in package manifest; standalone reproducibility remains unverified.
-- The repository contract workflow passed on commit `b724eb1ed13214147f724b91f7266a1dda1b4740`. CodeQL and secret scanning were still running when this status was checked. The contract suite is static; it is not an end-to-end membership, webhook, GitHub connection, or MCP test.
+- The latest repository contract workflow passed on commit `8940845f8b50bc160336e4dcd8bd3f96fad417b7`. CodeQL and secret scanning were still running on that commit when this status was refreshed. The contract suite is static; it is not an end-to-end membership, webhook, GitHub connection, or MCP test.
 
 These are observed boundaries, not reasons to abandon the project. They determine the safe build order and keep the implementation status distinct from planned integrations.
 
