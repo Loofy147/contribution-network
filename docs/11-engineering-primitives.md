@@ -301,15 +301,17 @@ Automation must be idempotent and observable. Do not add retries, jobs or queues
 
 ## 9. Current implementation status
 
-As checked on 2026-10-12:
-- The live ContribQuest app is deployed and reports no current frontend/backend errors.
-- The AppDeploy app secret list is empty.
-- The source snapshot imports AppDeploy client/server packages that are not declared in the checked-in package manifest; standalone reproducibility is not demonstrated.
-- Existing user-work reads pull bounded global lists and filter afterward; this is not a scale-ready tenant query strategy.
-- No GitHub App integration is registered/configured in the app, and no Network MCP server is implemented.
-- The repository contract test is static. It is not an end-to-end authorization, webhook, GitHub OAuth or MCP test.
+As checked on 2026-10-13:
+- The live ContribQuest app is deployed and AppDeploy reports `ready`, with no frontend or backend errors in the latest QA snapshot.
+- The application now has per-user indexes for authored bounties, submitted contributions, and received reviews. The protected `/api/my-work` route reads those user-scoped tables instead of using broad global lists to assemble private work.
+- New bounty, contribution, review, and resubmission transitions update canonical records and user indexes transactionally. An active-submission guard is used to prevent duplicate active submissions.
+- A bounded lazy migration indexes existing records by pages and reports progress in the UI. New submissions are refused until the contributor-history index has completed, avoiding the earlier incomplete filtered-scan fallback.
+- This is the first scaling/data-isolation increment, **not** complete workspace/project membership authorization. The app does not yet enforce project membership boundaries because explicit workspace/project membership records and negative cross-project authorization tests remain to be implemented. Index reads are bounded; UI pagination beyond the first index page remains follow-up work.
+- The AppDeploy app secret list was empty at the last verified inventory. No GitHub App connection is configured and no Network MCP server is implemented.
+- The source snapshot imports AppDeploy client/server packages that are not declared in the checked-in package manifest; standalone reproducibility remains unverified.
+- The repository contract workflow passed on commit `b724eb1ed13214147f724b91f7266a1dda1b4740`. CodeQL and secret scanning were still running when this status was checked. The contract suite is static; it is not an end-to-end membership, webhook, GitHub connection, or MCP test.
 
-These are observed boundaries, not reasons to abandon the project. They determine the safe build order.
+These are observed boundaries, not reasons to abandon the project. They determine the safe build order and keep the implementation status distinct from planned integrations.
 
 ## 10. Decision rule
 
