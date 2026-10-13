@@ -302,14 +302,14 @@ Automation must be idempotent and observable. Do not add retries, jobs or queues
 ## 9. Current implementation status
 
 As checked on 2026-10-13:
-- The live ContribQuest app is deployed and AppDeploy reports `ready`, with no frontend or backend errors in the latest QA snapshot.
-- The application now has per-user indexes for authored bounties, submitted contributions, and received reviews. The protected `/api/my-work` route reads those user-scoped tables instead of using broad global lists to assemble private work.
-- New bounty, contribution, review, and resubmission transitions update canonical records and user indexes transactionally. An active-submission guard is used to prevent duplicate active submissions.
-- A bounded lazy migration indexes existing records by pages and reports progress in the UI. New submissions are refused until the contributor-history index has completed, avoiding the earlier incomplete filtered-scan fallback.
-- This is the first scaling/data-isolation increment, **not** complete workspace/project membership authorization. The app does not yet enforce project membership boundaries because explicit workspace/project membership records and negative cross-project authorization tests remain to be implemented. Index reads are bounded; UI pagination beyond the first index page remains follow-up work.
-- The AppDeploy app secret list was empty at the last verified inventory. No GitHub App connection is configured and no Network MCP server is implemented.
+- The live ContribQuest app is deployed and AppDeploy reports `ready`; the latest QA snapshot has no frontend, network or backend errors.
+- Per-user work indexes are implemented for authored bounties, submitted contributions and received reviews. Legacy records migrate in bounded pages; new submissions are blocked until the active-submission index is complete.
+- A first account-security slice is deployed: server-side platform-owner allowlist, workspace membership/roles, workspace admin management, audit events, and an existing-account GitHub identity-link callback with short-lived one-time state.
+- The workspace roles currently govern the new workspace-management routes. They do **not** yet enforce project membership on every legacy bounty/contribution route; cross-project negative authorization tests and full project scoping remain required before unrelated projects are onboarded.
+- GitHub identity linking is implemented in source but not configured or connected. The verified AppDeploy secret inventory is empty. A secure one-time entry for `PLATFORM_OWNER_EMAILS` has been created for the app owner to provide the exact email shown in the account settings; it has not yet been submitted. GitHub client credentials and app registration still need to be configured. No repository installation/selection/sync is active.
+- No Network MCP server is implemented.
 - The source snapshot imports AppDeploy client/server packages that are not declared in the checked-in package manifest; standalone reproducibility remains unverified.
-- The latest repository contract workflow passed on commit `8940845f8b50bc160336e4dcd8bd3f96fad417b7`. CodeQL and secret scanning were still running on that commit when this status was refreshed. The contract suite is static; it is not an end-to-end membership, webhook, GitHub connection, or MCP test.
+- On commit `261fd7e6f30f9d48c8f79b4aa4fd5c245eb5dc37`, repository contract, secret scanning and CodeQL all passed. The contract suite is static; it is not an end-to-end account authorization, workspace isolation, GitHub OAuth, repository installation, webhook or MCP test.
 
 These are observed boundaries, not reasons to abandon the project. They determine the safe build order and keep the implementation status distinct from planned integrations.
 
