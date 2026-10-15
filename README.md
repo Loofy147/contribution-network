@@ -26,6 +26,7 @@ The Contribution Network itself is Project 0 and the first real project: its fou
 11. [Engineering primitives and integration architecture](docs/11-engineering-primitives.md) — GitHub App permissions, MCP authorization/tool boundaries, database organization, secrets, audit/idempotency, and rollout gates.
 12. [Credential, bearer-token, key and API management](docs/12-credential-and-api-management.md) — provider credentials, API key issuance, bearer-token validation, secret storage, scopes, rotation/revocation, versioned API contracts, and acceptance gates.
 13. [CI/CD pipeline and quality-gate specification](docs/13-ci-cd-and-quality-gates.md) — documentation CI, prototype build blockers, security/dependency automation, release gates, and the conditions required before enabling CD.
+14. [License and content-rights policy](docs/14-license-and-content-rights-policy.md) — repository-by-repository license recommendations, rights/provenance boundaries, and explicit pre-merge gates.
 
 ## Working principles
 
@@ -83,4 +84,4 @@ Until the system passes its readiness gates, active design, implementation, trac
 
 ## License and usage
 
-No repository license has been selected yet. Do not infer reuse permissions from the repository being public. Choose and add a license after deciding what it covers, including third-party materials.
+This strategic documentation repository remains intentionally unlicensed during the current foundation stage. The application and Video Workbench have separate draft license proposals under review; see [the license and content-rights policy](docs/14-license-and-content-rights-policy.md). Do not infer reuse permissions from public visibility, and do not apply an application-code license to these strategy documents by implication.
