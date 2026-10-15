@@ -26,7 +26,12 @@ The repository is documentation-first. Its CI runs a Node.js documentation contr
 - checks local Markdown links resolve inside the repository;
 - checks the workflow's minimal permissions, commit-SHA action pins, bounded execution and token handling;
 - ensures the current working boundary and non-automated deployment status stay explicit.
-A separate Gitleaks workflow installs the pinned v8.30.0 CLI and scans full Git history with redacted output. It does not call the GitHub account API, need a Gitleaks license, write PR comments, or upload scan reports. The initial scan identified one `generic-api-key` match in the prose discussing tokenization; the historical line and surrounding context were reviewed and contained no credential. Only that exact commit/file/rule/line fingerprint is allowlisted in [`.gitleaksignore`](../.gitleaksignore); no rule-wide suppression is used. Dependabot raises updates for GitHub Actions.
+A separate Gitleaks workflow installs the pinned v8.30.0 CLI and scans full Git history with redacted output. It does not call the GitHub account API, need a Gitleaks license, write PR comments, or upload scan reports. Two intentionally narrow exceptions are maintained and source-tested; neither is permission to ignore real credentials:
+
+- [`.gitleaksignore`](../.gitleaksignore) contains one exact finding fingerprint for token-like wording in strategy prose. The reviewed line and context contain no credential.
+- [`.gitleaks.toml`](../.gitleaks.toml) uses `condition = "AND"`, the `generic-api-key` rule, the exact `src/analytics.ts` path, and only the two identified introducing commits (`9781e3f639ba6008d18a08c14a11fb4c5b2ab44f` and `48abb5f14d37f4574d1bff2a9c6e4c7fb5ca6f37`). The latter finding is the public PostHog browser ingestion project token, not an admin/service secret; the frontend deliberately disables ambient capture, pageviews and session recordings. The exact allowlist and its contract test were merged in [PR #18](https://github.com/Loofy147/Contribution-bounties-centre-/pull/18) at [commit 81d5772](https://github.com/Loofy147/Contribution-bounties-centre-/commit/81d5772a7c2a1aaad17bb745648d1687b2bbd437); [the main-branch full-history secret scan passed](https://github.com/Loofy147/Contribution-bounties-centre-/actions/runs/38781166959).
+
+Do not widen either exception or allowlist by path/rule alone. Any actual credential must be revoked/rotated rather than suppressed. Dependabot raises updates for GitHub Actions.
 
 No dependencies need to be installed for this contract suite. The workflow uses read-only permissions and pinned GitHub Actions.
 
